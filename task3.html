@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>JavaScript для начинающих</title>
+		<link rel="stylesheet" href="./style0.css" />
+		<link rel="stylesheet" href="./style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div class="header">
+			<div class="header-width">
+				<ul class="nav">
+					<button class="none btn-nav">Дизъюнкция
+						<p class="rotate-1">></p>
+					</button>
+					<li class="none-block-nav">
+						<ul class="ul-2">
+							<li><a href="task1.html">Инверсия</a></li>
+							<li><a href="task2.html">Конъюнкция</a></li>
+							<li><a href="task3.html">Дизъюнкция</a></li>
+
+						</ul>
+					</li>
+				</ul>
+				<p class="name">Математическая логика</p>
+				<img src="./img/logo.png" alt="" width="50" height="50">
+			</div>
+		</div>
+		<div class="main">
+			<div class="information">
+				<button role="button" class="rotate none">+</button>
+				<p><span>Дизъюнкция</span>  - логическая операция, которая каждым двум высказываниям ставит в соответствие новое высказывание, являющееся ложным тогда и только тогда, когда оба исходных высказывания ложны.
+				<p>Другое название: логическое сложение.</p>
+				<p>Обозначения:  V, |,  ИЛИ, +. </p>
+				<table class="th">
+					<tr>
+						<td>A</td>
+						<td>B</td>
+						<td>A+B</td>
+					</tr>
+					<tr>
+						<td>0</td>
+						<td>0</td>
+						<td>0</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>0</td>
+						<td>1</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>0</td>
+						<td>1</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>1</td>
+						<td>1</td>
+					</tr>
+				</table>
+					<p>Для закрепления материала заполните следующие таблицы истинности</p>
+				<button role="button" class="start none">Перейти к заданию</button>
+			</div>
+			<div class="help">
+			</div>
+
+
+			<div class="tasks">
+				<div class="theory">
+					<p class="rotate-theory">Теория</p>
+				</div>
+				<div class="task_table">
+					<div class="task_2">
+						<table>
+							<tr>
+								<td class="tdd">A</td>
+								<td class="tdd">B</td>
+								<td class="tdd">A+B</td>
+							</tr>
+							<tr>
+								<td class="tdd">0</td>
+								<td class="tdd">1</td>
+								<td class="tdd"><input id='6_A_1'></input></td>
+
+							</tr>
+							<tr>
+								<td class="tdd">1</td>
+								<td class="tdd">0</td>
+								<td class="tdd"><input id='6_A_2'></input></td>
+
+							</tr>
+							<tr>
+								<td class="tdd">0</td>
+								<td class="tdd">0</td>
+								<td class="tdd"><input id='6_A_3'></input></td>
+
+							</tr>
+							<tr>
+								<td class="tdd">1</td>
+								<td class="tdd">1</td>
+								<td class="tdd"><input id='6_A_4'></input></td>
+
+						</table>
+						<button id='prov6' class="bb">проверить</button>
+					</div>
+				<div class="task_2">
+					<table>
+						<tr>
+							<td class="tdd">A</td>
+							<td class="tdd">B</td>
+							<td class="tdd">A+B</td>
+
+						</tr>
+						<tr>
+							<td class="tdd">1</td>
+							<td class="tdd">1</td>
+							<td class="tdd"><input id='7_A_1'></input></td>
+
+						</tr>
+						<tr>
+							<td class="tdd">1</td>
+							<td class="tdd">0</td>
+							<td class="tdd"><input id='7_A_2'></input></td>
+
+						</tr>
+						<tr>
+							<td class="tdd">1</td>
+							<td class="tdd">0</td>
+							<td class="tdd"><input id='7_A_3'></input></td>
+						</tr>
+						<tr>
+							<td class="tdd">1</td>
+							<td class="tdd">1</td>
+							<td class="tdd"><input id='7_A_4'></input></td>
+
+						</tr>
+					</table>
+					<button id='prov7' class="bb">проверить</button>
+
+				</div>
+			</div>
+
+		</div>
+		<div class="close"></div>
+
+<script src="./task3.js"></script>
+			<script src="./main.js"></script>
+	</body>
+</html>
